@@ -45,6 +45,11 @@ class Converter implements iRomanNumeralGenerator
                 //substract from the int number the value corresponding to the roman symbols added to the result
                 $intNumber -= $value * $n;
             }
+
+            //If the generation of the roman number is completed we exit the loop to avoid unnecessary iterations through the array of roman numbers
+            if($intNumber === 0) {
+                break;
+            }
         }
         
         return $sRoman;
