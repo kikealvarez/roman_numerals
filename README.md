@@ -16,7 +16,5 @@ API interface for generate roman numbers from integer numbers or parse roman num
  
         Input: http://localhost/roman/?action=parse&input=XVI
         Output: {"code":1,"status":200,"message":"Success","result":16}
- 
-    Author: Enrique Alvarez Macías
-    Developed and tested with Apache/2.4.9 and PHP/5.5.12
+    PHP/5.5.12
     History: 27/08/2015 - Created
