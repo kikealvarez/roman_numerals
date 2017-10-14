@@ -1,7 +1,7 @@
 # roman_numerals
-Api for generate / parse roman numerals
+Tool for handling roman numerals
 
-API interface for generate roman numbers from integer numbers or parse roman numbers to integer numbers.
+Generate roman numbers from integer numbers or parse roman numbers to integer numbers.
     It works for numbers between 1 and 3999
  
     Parameters:
